@@ -1,0 +1,16 @@
+ $("#topIn").on("mouseenter",".menu",function(){
+		$(this).css({"background":"white","border-buttom":"white 1px solid"})
+	    $(this).find("div").show(100)
+	})
+	$("#topIn").on("mouseleave",".menu",function(){
+		$(this).css({"background":"#f2f2f2","border-buttom":"1px solid darkgray"})
+	     $(this).find("div").hide(100)
+	})
+	var str=getCookie("xx")
+	console.log(str)
+	$("#tj").html(str.jg+8)
+	$("#money1").html(str.jg+8)
+	$("#money2").html(str.jg+8)
+    $("#xm").html(str.xm)
+    $("#dz").html(str.dz)
+    $("#hm").html(str.hm)

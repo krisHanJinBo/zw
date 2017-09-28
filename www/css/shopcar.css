@@ -1,0 +1,117 @@
+#step{
+   height:110px;
+   background: white;
+
+}
+#step #step-c{
+   width:960px;
+   margin: 0 auto;
+}
+#step #mm1{
+   float: left;
+}
+#step #mm2{
+   float: right;
+}
+#sc{
+   width:960px;
+   /*min-height:560px;*/
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+#sc #cart{
+    /*min-height:395px;*/
+    background: white;
+}
+#cart #hp{
+	height: 40px;
+	background: #333333;
+	color: white;
+	font-size: 15px;
+	line-height: 40px;
+}
+#cart table{
+	border-spacing: 0;
+	width:960px;
+}
+#cart table tr{
+	height:120px;
+	border:1px solid gray;
+}
+#cart td{
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+#cart table .money{
+	color:#ff643c
+}
+#cart table img{
+	width:65px;
+	height:65px;
+	border:1px solid gainsboro;
+}
+#cart #sum{
+	color:grey;
+	font-size: 14px;
+	padding-top: 40px;
+	overflow: hidden;
+	height:80px;
+}
+#sum #aa1{
+	color:gray;
+	display:inline-block;
+	width:75px;
+	height:25px;
+	margin-left: 33px;
+}
+#sum #aa2{
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	display:inline-block;
+	width:75px;
+	height:25px; 
+	background: #00C8FF;
+	margin-right: 270px;	
+}
+#sum #aa3{
+	margin-left: 60px;
+	font-size: 22px;
+	color: white;
+	display: inline-block;
+	width:125px;
+	height:45px;
+	text-align: center;
+	line-height: 45px;
+	background: #FF643C;
+}
+#sum #ss2{
+	color:#FF643C ;
+}
+#sum #ss3{
+	font-size:22px ;
+	color:#FF643C;
+}
+#sc h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: normal;
+}
+#sc #cha{
+    height:70px;
+    background: white;
+}
+#cha a{
+    display: inline-block;
+    width:314px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    background:gray;
+    color:white;
+}
+#cha a:hover{
+    background:#00c8ff;
+}

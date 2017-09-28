@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	background: #f6f6f3;
+	height:100%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+#top{
+	position: relative;
+	z-index: 997;
+	color:#666666;
+	font-size: 14px;
+	line-height: 30px;
+	height:30px;
+	background: #f2f2f2;
+	border-bottom: 1px solid darkgray;
+}
+#top ul{
+	width:440px;
+	height:35px;
+	float:right;
+	margin-right: 180px;
+}
+#top ul li{
+	text-align: center;
+	float:left;
+	width:110px;
+	cursor:pointer;	
+}
+#top ul li div{
+	display: none;
+}
+#top ul li div span{
+	display: block;
+	width:110px;
+	height:30px;
+	margin-left:-2px;
+}
+#top span{
+	display: block;
+	float:left;
+	margin-left: 180px;
+}
+#top a{
+	margin:0 10px;
+	color:#666666;
+}
+#head{
+	background: white;
+	overflow: hidden;
+	height:108px;
+	width:100%;
+}
+#head #i1{
+	float: left;
+	margin-left: 140px;
+}
+#head #i2{
+	float: left;
+	margin-left: 220px;
+}
+
+#su1{
+	overflow: hidden;
+	width:960px;
+	height:170px;
+	margin: 20px auto;
+	background: white;
+	font-family: "微软雅黑";
+}
+#su2{
+	overflow: hidden;
+	width:960px;
+	height:220px;
+	margin: 20px auto;
+	background: white;
+}
+#su2 a{
+	text-align: center;
+	line-height: 42px;
+	display: inline-block;
+	width:120px;
+	height:42px;
+	background:#FF643C;;
+	color: white;
+	font-size: 24px;
+	margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+	overflow: hidden;
+	height:435px;
+}
+#footer #fm{
+	line-height:34px;
+	height:35px;
+	background: #00c8ff;
+}
+#footer #fb{
+    text-align: center;
+	height:200px;
+	background: white;
+	padding-top: 30px;
+}
+#footer #ft{
+	height:200px;
+	background: white;
+}
+#footer #ft dl{
+	margin-left: 30px;
+	margin-top: 20px;
+	float:left;
+	width:110px;
+	height:150px;
+}
+#footer #ft dl dt{
+	font-weight: 900;
+	margin-bottom: 15px;
+}
+#footer #ft dl a{
+	color:dimgray;
+	font-size: 15px;
+	display: block;
+	width:110px;
+	margin-top: 8px;
+}
+#footer #wei{
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 15px;
+	float:left;
+	width:95px;
+}
+#footer #fm a{
+    color: white;
+	height:34px;
+	line-height: 34px;
+    float: left;
+	display: flex;
+	margin-left:30px;
+}
+#footer #fb p{
+    font-size: 14px;
+    color:gray;
+	width:700px;
+	height:40px;
+    margin-left:260px;   
+}

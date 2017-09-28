@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>知我药妆-知名药妆护肤品化妆品团购网站-真品保证-30天包退</title>
+		<link rel="shortcut icon" href="img/1.ico">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/cookie.js"></script>
+	</head>
+	<body>
+		<div id="left"></div>
+		<div id="right">
+			<a href="#" style="margin-top: 150px;"><span class="iconfont">&#xe8c8;</span><p>登录丨注册</p></a>
+			<a href="#"  id="shopc" style="height: 135px;"><span class="iconfont">&#xe887;</span><span id="car">购物车</span><span id="count">0</span></a>
+			<a href="#"><span class="iconfont">&#xe8c3;</span><p>我的收藏</p></a>
+			<a href="#"><span class="iconfont">&#xe8fe;</span><p>我看过的</p></a>
+			<a href="#"><span class="iconfont">&#xe8c3;</span><div  id="code"><img src="img/android_ewm.png"><img src="img/android_ewm.png"><img src="img/android_ewm.png"></div></a>
+			<a href="#"><span class="iconfont">&#xe8fe;</span><p>客服中心</p></a>
+			<a href="#"><span class="iconfont">&#xe8f7;</span></a>
+		</div>
+		<div id="shopmenu">
+			<p  style="font-size:18px ;margin: 12px; border-bottom: 1px solid grey;"><span>我的购物车</span><span style="margin-left: 150px; font-size: 24px;">></span></p>
+			<div id="suv">
+				<!--<div class="good">
+					<img src="img/14610142304871611305.jpg"> 
+					<p class="pr">
+						<span class="spa1">【促销价】法国进口 雅漾修护保湿霜40ml</span><br>
+						<span class="spa2">￥49.9</span>
+						<span class="spa3">1</span>
+						<u class="spa4"><a>删除</a></u>
+					</p>
+				</div>-->
+			</div>
+			<p style="margin: 12px;">共<span style="color:#ff643c;" id="ct">0</span>件商品<br><br>共计<span style="color:#ff643c;">￥</span><span  id="sim" style="color:#ff643c; font-size: 18px;" >0</span><a href="shopcar.html" id="link">去购物车结算</a></p>
+		</div>
+		<div id="top">
+			<span>欢迎来到知我!这里,用专业呵护美丽。</span>
+			<a href="login.html">请登录</a>
+			<a href="register.html">快速注册</a>
+			<ul id="topIn">
+				<li class="menu">微信商城   丨<div><img style="width:110px;"src="img/android_ewm.png"></div></li>
+				<li style="background:url(img/phone.png) no-repeat;">手机知我   丨</li>
+				<li class="menu">我的小窝   丨<div style="height:150px"><span>我的订单</span><span>我的优惠卷</span><span>我的积分</span><span>我的收藏</span><span>我的预定</span></div></li>
+				<li class="menu">客户服务   丨<div style="height:120px"><span>帮助中心</span><span>新浪微博</span><span>正品承诺</span><span>真伪查询</span></div></li>
+			</ul>
+		</div>
+		<div id="header">
+			<a href="index.html" id="im"><img src="img/logo.jpg"></a>
+			<div id="ss">
+				<input type="text" id="s">
+				<a href="#" id="b">搜索</a>
+			</div>
+			<div id="shopcar"><a href="shopcar.html"><img src="img/shopcar.png">我的购物车</a></div>
+		</div>
+		<div id="nav">
+			<a href="#"  class="dh" style="left:125px; background:#00647f">首页</a>
+			<a href="#"  class="dh" id="a2" style="left:245px">知我商城</a>
+			<a href="#"  class="dh" id="ttt" style="left:365px; background-image: url(img/home_overseas.gif);"></a>
+			<ul id="uu">
+				<li style="left:100px" value="140"><img src="img/4.fw.png"><span>30天无理由退还</span></li>
+				<li style="left:66px" value="130"><img src="img/3.fw.png"><span>139元包邮</span></li>
+				<li style="left:33px" value="100"><img src="img/2.fw.png"><span>真品保证</span></li>
+				<li value="100"><img src="img/1.fw.png"><span>百度投资</span></li>
+			</ul>
+			<div id="market">
+				<div class="detial"><img src="img/hufu.fw.png"><span>护肤</span>
+					<div id="content">
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>	
+					</div>
+				</div>
+				<div class="detial"><img src="img/yaozhuang.fw.png"><span>药妆</span>
+					<div id="content">
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>	
+					</div>
+				</div>
+				<div class="detial"><img src="img/xihu.fw.png"><span>洗护</span>
+					<div id="content">
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>	
+					</div>
+				</div>
+				<div class="detial"><img src="img/caizhuang.fw.png"><span>彩妆</span>
+					<div id="content">
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>
+						<a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a><a href="#">面膜面贴</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	<div id="mainCont">
+	<div id="mt">
+		<div id="mt1">
+			<p id="p1">商城首页><span id="jie">   </span></p>
+			<p id="p2">今日特卖婵真美菁精华液50ml，常保透明的皮肤，柿子叶萃取物、牡丹皮萃取物、熊果苷、维他命C诱导体等的复合作用可以有效抑制黑色素的生成，令肤色光洁透明。</p>
+			<img src="img/page.png">
+		</div>
+		<div id="mt2">
+			<img class="mt2-1" id="jn"  src="img/m12.jpg">
+			<div id="mt2-r">
+				<p id="rp1"><img src="img/block.png"><span id="tt">剩余00时00分00秒</span></p>
+				<p id="rp2" style="margin-bottom: 60px;"><span id="ssp">$999</span>
+					<a href="#">立即抢购</a>
+				</p>
+				<p id="rp3"><span id="ss1">48</span>人已购买<span id="ss2">72</span>人即将购买</p>
+				<p id="rp4">功效 保湿 润肤</p>
+			</div>
+		</div>
+	</div>
+	<div id="mm">
+	    <h2>今日特卖推荐RECOMMENDED SALE TODAY</h2>
+	    <dl>
+	       <dt><img src="img/dl1.jpg"></dt>
+	       <dd>
+	          <p>Kiehls</p>
+	          <span>$</span><span class="sp">229</span><a href="#">加入购物车</a>
+	       </dd>
+	    </dl>
+	    <dl>
+	       <dt><img src="img/dl2.jpg"></dt>
+	       <dd>
+	          <p>可莱丝胶原蛋白弹性保湿面膜25m</p>
+	          <span>$</span><span class="sp">229</span><a href="#">加入购物车</a>
+	       </dd>
+	    </dl>
+	    <dl>
+	       <dt><img src="img/dl3.jpg"></dt>
+	       <dd>
+	          <p>skin</p>
+	          <span>$</span><span class="sp">229</span><a href="#">加入购物车</a>
+	       </dd>
+	    </dl>
+	    <dl>
+	       <dt><img src="img/dl4.jpg"></dt>
+	       <dd>
+	          <p>英国AA网绿茶芦荟眼胶60ml</p>
+	          <span>$</span><span class="sp">229</span><a href="#">加入购物车</a>
+	       </dd>
+	    </dl>
+	</div>
+	<div id="mf">
+	    <div id="l">
+	       <p id="pp1">同分类排行RANKING</p>
+	       <p id="pp2"><img src="img/ll1.png"><a href="#">百雀羚水能量臻纯肌底精华液30ml￥119.0</a></p>
+	       <p id="pp3"><img src="img/ll2.png"><a href="#">芭芘佩奇迹娇颜马油精华液30ml￥85.0</a></p>
+	    </div>
+	    <div id="r">
+	       <ul id="xd">
+	          <li>商品参数</li>
+	          <li>本单详情</li>
+	          <li>使用方法</li>
+	          <li>用户口碑</li>
+	       </ul>
+	       <div id="cs">
+	          <h2 style="margin-top: 40px;">商品参数PARAMETERS</h2>
+	          <div id="cc">
+	            <p>原 产 地:韩国</p>
+	            <p>生产日期:	具体日期以实际收到货物为准</p>
+	            <p>功  效:	透白 保湿 滋润</p>
+	            <p>温馨提示:	由于部分商品包装更换较为频繁，因此您收到的货品有可能与图片不完全一致，请您以收到的商品实物为准，同时我们会尽量做到及时更新，由此给您带来不便多多谅解，谢谢！</p>
+	          </div>
+	          <img src="img/m20.jpg"id="para">
+	       </div>
+	       <div id="xq">
+	          <h2>本单详情COUPON</h2>
+	          <img src="img/big1.jpg">
+	          <img src="img/big2.jpg">
+	          <img src="img/big3.jpg">
+	          <img src="img/big4.jpg">
+	          <img src="img/big5.jpg">
+	       </div>
+	       <div id="ff">
+	          <h2>使用方法USE METHOD</h2>
+	          <p>取适量均匀涂于整个面部，对皮肤灰暗或老化的部位再涂抹一次。</p> 
+	       </div>
+	       <div id="kb">
+	          <h2>用户口碑USER REPUTATION</h2>
+	          <p>含熊国素（Arbutin）成分，有效增加皮肤透明、洁净感,而且供给水分，营养成分增加肌肤清新度。</p>
+	       </div>
+	    </div>
+	</div>
+</div>
+		
+		<div id="footer">
+			<div id="ft">
+				<dl style="margin-left: 80px;">
+					<dt>真品保证</dt>
+					<dd>
+						<a href="#">品牌合作</a>
+						<a href="#">严格把关</a>
+						<a href="#">百度投资</a>
+						<a href="#">全球品牌直供</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>30天包退</dt>
+					<dd>
+						<a href="#">品牌合作</a>
+						<a href="#">严格把关</a>
+						<a href="#">百度投资</a>
+						<a href="#">全球品牌直供</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>139元包邮</dt>
+					<dd>
+						<a href="#">品牌合作</a>
+						<a href="#">严格把关</a>
+						<a href="#">百度投资</a>
+						<a href="#">全球品牌直供</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>药妆专柜</dt>
+					<dd>
+						<a href="#">品牌合作</a>
+						<a href="#">严格把关</a>
+						<a href="#">百度投资</a>
+						<a href="#">全球品牌直供</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>关于知我</dt>
+					<dd>
+						<a href="#">品牌合作</a>
+						<a href="#">严格把关</a>
+						<a href="#">百度投资</a>
+						<a href="#">全球品牌直供</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd>
+						<a href="#">品牌合作</a>
+						<a href="#">严格把关</a>
+						<a href="#">百度投资</a>
+						<a href="#">全球品牌直供</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>联系方式</dt>
+					<dd>
+						<a href="#">品牌合作</a>
+						<a href="#">严格把关</a>
+						<a href="#">百度投资</a>
+						<a href="#">全球品牌直供</a>
+					</dd>
+				</dl>
+				<div id="wei">
+					<span>知我微信商城</span>
+					<img src="img/wc.png">
+				</div>
+			</div>
+			<div id="fm">
+				        <a href="#" style="margin-left: 340px;"><img src="img/1.fw.png">百度投资</a>
+						<a href="#"><img src="img/2.fw.png">真品保证</a>
+						<a href="#"><img src="img/3.fw.png">139元包邮</a>
+						<a href="#"><img src="img/4.fw.png">30天包退</a>
+			</div>
+			<div id="fb">
+			    <p style="margin-top: 30px;">© 2015-2019 知我天成科技（北京）股份有限公司 zhiwo.com 保留一切权利。客服热线：400-630-1018</p>
+			    <p>京ICP备10047008号 |京ICP证B2-20170630号 | 网公安备1101054365号 | 营业执照</p>
+			    <p><img src="img/ft1.jpg"><img src="img/ft2.jpg"><img src="img/ft3.jpg"></p>
+			</div>
+		</div>
+    </body>
+</html>
+<script src="js/page.js"></script>
+<script>
+   
+</script>

@@ -1,0 +1,286 @@
+#mt{
+   width:1060px;
+   height:545px;
+   margin-left:120px;
+   overflow: hidden;
+}
+#mt #mt1{
+   background: white;
+   height:195px;
+   margin-bottom: 12px;
+   overflow: hidden;
+}
+#mt1 #p1{
+    font-size:14px ;
+    font-weight:800;
+   padding-left: 40px;
+   /* margin-top: 8px;*/
+    height:31px;
+    border-bottom:1px solid gainsboro;
+}
+#shopmenu{
+	z-index:99999999;
+	position:fixed;
+	width:300px;
+	height:100%;
+	right:-300px;
+	bottom:0;
+	background:ghostwhite;
+	overflow: auto;
+}
+#shopmenu .good{
+	height:85px;
+	margin:18px 12px;
+	border-bottom: 1px solid gray;
+	padding:20px 0;
+	overflow: hidden;
+	font-size: 12px;
+}
+#shopmenu .spa1{
+	display: block;
+	margin-bottom: 8px;
+}
+#shopmenu .spa2{
+	color:#ff643c;
+}
+#shopmenu .spa3{
+	margin:0 28px;
+}
+#shopmenu .xt{
+	width:80px;
+	height:80px;
+	border:1px solid gainsboro;
+	float: left;
+}
+#shopmenu #em{
+	display: block;
+	margin-left: 70px;
+	margin-top: 180px;
+}
+#shopmenu #ts{
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 18px;
+}
+#shopmenu #link{
+	color:white;
+	display: inline-block;
+	width:120px;
+	height:35px;
+	text-align: center;
+	line-height: 35px;
+	background: #ff643c;
+	margin-left: 50px;
+}
+#shopmenu .pr{
+	width:150px;
+	height:80px;
+	float:left;
+	margin-left: 20px;
+}
+#mt1 #p2{
+   color:gray;
+   padding-left: 40px;
+   padding-top: 30px;
+    width:650px;
+    float:left;
+}
+#mt1 img{
+    float: right;
+}
+#mt #mt2{
+     background: white;
+    height: 335px;
+}
+#mt2 .mt2-1{
+    height:330px;
+    margin-left:150px;
+}
+#mt2 #mt2-r{
+    padding-top: 20px;
+    width:300px;
+    margin-right: 100px;
+    height:310px;
+    float:right;
+}
+#mt2-r p{
+    margin-top:20px;
+}
+#mt2-r #rp2{
+     padding-left: 12px;
+     position: relative;
+     overflow: hidden;
+     line-height: 50px;
+     width:288px;
+     height:50px;
+     background:#00c8ff;
+}
+#rp2 a{
+    position: absolute;
+    left:140px;
+    top:8px;
+    color: white;
+   text-align: center;
+   line-height: 35px;
+    display: inline-block;
+    width:120px;
+    height:35px;
+    background: #ff643c;
+}
+#rp2 #ssp{
+    font-size: 32px;
+    color:white;
+}
+#rp3 #ss1,#ss2{
+    font-size: 24px;
+}
+#rp3 #ss1{
+    color:deepskyblue;
+}
+#rp3{
+    border-top:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
+}
+#rp3 #ss2{
+    color:black;
+}
+#mm{
+   overflow: hidden;
+   height:430px;
+   width:1060px;
+   margin-left:120px;
+}
+#mm dl{
+   width:230px;
+   height:330px;
+   float:left;
+   margin: 16px;
+   background: white;
+}
+#mm dl dt{
+   width:230px;
+   height:230px;
+}
+#mm dl dd{
+   padding-left:10px;
+   width:220px;
+   height:100px;
+}
+#mm dd p{
+   font-size: 14px;
+   color: gray;
+   margin-bottom: 30px;
+}
+#mm dl dt img{
+   width:230px;
+   height:230px;
+}
+#mm span{
+   color:#ff643c;
+}
+#mm .sp{
+   font-size: 24px;
+}
+#mm a{
+   display: inline-block;
+   width:120px;
+   height:35px;
+   color: white;
+   background:#ff643c ;
+   float:right;
+   text-align: center;
+   line-height: 35px;
+   
+}
+#mm h2{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: normal;
+}
+#mf{
+   overflow: hidden;
+   width:1060px;
+   margin-left:130px;
+   margin-bottom: 40px;
+}
+#mf #r{
+    position:relative;
+    width:700px;
+    float:left;
+}
+#mf #r ul{
+    position: absolute;
+    width:700px;
+    height:40px;
+    background: darkslategray;
+}
+#mf #r ul li{
+   color:white;
+   list-style: none;
+   text-align:center;
+   float: left;
+   width:120px;
+   line-height: 40px;
+   cursor:pointer;
+}
+#cs,#xq,#ff,#kb{
+   padding:0 10px;
+   overflow: hidden;
+   background: white;
+}
+#mf #r h2{
+    border-bottom: 1px solid gray;
+    height:34px;
+    font-weight: normal;
+}
+#r #cs p{
+    width:400px;
+    margin: 12px;
+}
+#r #cs #cc{
+    width:400px;
+    float:left;
+}
+#r #cs img{
+   float:right;
+   width:240px;
+   height:240px;
+}
+#ff p{
+   margin:12px;
+   font-size: 14px;
+}
+#kb p{
+   margin:12px;
+   font-size: 14px;
+}
+#mf #l{
+   width:240px;
+   height:304px;
+   float: left;
+   margin-right: 70px;
+   background: white;
+}
+#l #pp1{
+   height:40px;
+   padding-left: 10px;
+   background: darkslategray;
+   color: white;
+   line-height: 40px;
+}
+#l img{
+   float:left;
+}
+#l #pp2,#l #pp3{
+   height:130px; 
+}
+#l #pp2 a,#l #pp3 a{
+    display: inline-block;
+    float:left;
+    width:100px;
+    height:100px;
+    font-size: 14px;
+    color: gray;
+    margin-top: 28px;
+}
